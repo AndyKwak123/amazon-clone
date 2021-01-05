@@ -1,0 +1,62 @@
+.login-logo{
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-form{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;    
+    border: 3px solid gray;
+    padding: 15px;
+    border-radius: 5%;
+    animation: fadein 3s;
+
+}
+
+.form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-delay: 1s;
+}
+
+.btn{
+    margin-top: 1em;
+}
+
+.notice{
+    background-color: lightgray;
+    margin-top: 1em;
+    padding: 2px;
+    text-align: center;
+}
+
+.sign-btn{
+    background-color: orange;
+    border: none;
+    border-radius: 5%;
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}

@@ -1,0 +1,37 @@
+Refactoring->changing the code
+React hooks-> functional components 
+KNOW BOTH class based and functional **if your key and value in an object is the same, you can just do 1
+
+
+Using React Context API is the data layer (kind of like a global variable)  allows you to avoid prop drilling -> passing props through all your different components
+
+
+REDUX vs React Context API? 
+
+Redux has been around so for long -> more production steady because the code based is very stable and built out 
+
+React Context API-> easy and lightweight for setup 
+
+
+
+ACTIONS? REDUCERS? 
+
+The way you manipulate the state is through dispatch and actions 
+
+Every time you dispatch an action into the data layer, you need to return THE NEW STATE 
+
+Anytime you want to manipulate the data layer, you need dispatch
+
+USE context when you need to access data from many different components
+
+
+FIREBASE
+
+terminal: npm i firebase   --to download firebase dependencies 
+
+
+event.preventDefault() will stop the refresh 
+
+
+
+USER LOGIN --> LISTEN if they login or logout -> push that state to the data layer 

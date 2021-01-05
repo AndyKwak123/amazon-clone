@@ -1,0 +1,6 @@
+/* React always adds some wierd spacing */
+
+* {
+  margin: 0;
+}
+
